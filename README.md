@@ -26,23 +26,23 @@ A RESTful API built with Express.js and TypeScript for managing a book collectio
 
 ```
 src/
-├── server.ts              # App entry point
-├── types.ts               # TypeScript interfaces
+├── server.ts                 # App entry point
+├── types.ts                  # TypeScript interfaces
 ├── routes/
-│   ├── auth.ts           # Authentication routes
-│   └── books.ts          # Books CRUD routes
+│   ├── auth.ts               # Authentication routes
+│   └── books.ts              # Books CRUD routes
 ├── controllers/
 │   ├── authControllers.ts    # Auth logic
 │   └── booksController.ts    # Books logic
 ├── middlewares/
 │   ├── authentication.ts     # JWT verification
 │   ├── authorization.ts      # Role checking
-│   ├── error.ts             # Error handler
-│   ├── logger.ts            # Request logger
-│   ├── notFound.ts          # 404 handler
-│   └── rateLimiters.ts      # Rate limiting
+│   ├── error.ts              # Error handler
+│   ├── logger.ts             # Request logger
+│   ├── notFound.ts           # 404 handler
+│   └── rateLimiters.ts       # Rate limiting
 └── database/
-    └── db.ts                # In-memory data store
+    └── db.ts                 # In-memory data store
 ```
 
 ## 🔐 Authentication Flow
@@ -62,7 +62,7 @@ src/
 
 ### Authentication
 ```
-POST   /api/auth/register    # Register new client
+POST   /api/auth/register     # Register new client
 POST   /api/auth/login        # Login user
 POST   /api/auth/logout       # Logout user
 GET    /api/auth/me           # Get current user
