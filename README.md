@@ -173,6 +173,6 @@ MIT
 
 ## 👤 Author
 
-**Your Name**
+**Mo'men Tamer**
 - LinkedIn: [Mo'men Tamer](https://www.linkedin.com/in/mo-men-tamer-2005mt)
 - GitHub: [Moamen-Tamer](https://github.com/Moamen-Tamer)
